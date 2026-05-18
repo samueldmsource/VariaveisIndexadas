@@ -107,7 +107,7 @@ while True:
     else:
         print("Digite valores inteiros ou decimais.")'''
 
-
+#PORQUE ENTRADA DE DADOS EM LIST NAO CONSIGO?
 
 '''acimaMedia=[]
 valores=[]
@@ -124,9 +124,17 @@ while True:
     else:
         print("digite valores inteiros")'''
 
-'''vetorDobrado=[7,11,16]
-dobro=[m*2 for m in vetorDobrado]
-print(dobro)'''
+
+'''dobro=[]
+while True:
+    vetorDobrado=list(map(int,input("digite valores para resultados dobrados: ").split()))
+
+    if vetorDobrado:
+        dobro=[m*2 for m in vetorDobrado]
+        print(dobro)'''
+        #COMO FAZER UMA SAÍDA?
+
+
 
 
 
